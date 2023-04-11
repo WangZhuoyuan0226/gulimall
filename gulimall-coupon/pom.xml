@@ -15,7 +15,7 @@
     <description>谷粒商城-优惠券服务</description>
     <properties>
         <java.version>15</java.version>
-        <spring-cloud.version>2022.0.1</spring-cloud.version>
+        <spring-cloud.version>2021.0.1</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
@@ -31,6 +31,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tongji.gulimall</groupId>
+            <artifactId>gulimall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
